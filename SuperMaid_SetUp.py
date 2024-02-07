@@ -4,26 +4,6 @@ import pandas as pd
 db_connect = sqlite3.connect('SuperMaids.db')
 
 cursor = db_connect.cursor()
-#if something wrong drop table
-#query = """ DROP TABLE Employee;
-#    """
-#cursor.execute(query)
-#query = """ DROP TABLE Requirement;
-#    """
-#cursor.execute(query)
-#query = """ DROP TABLE Client;
-#    """
-#cursor.execute(query)
-#query = """ DROP TABLE Equipment;
-#    """
-#cursor.execute(query)
-#query = """ DROP TABLE Performs;
-#    """
-#cursor.execute(query)
-#query = """ DROP TABLE Need;
-#    """
-#cursor.execute(query)
-
 
 query = """
 CREATE TABLE Employee
